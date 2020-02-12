@@ -23,7 +23,7 @@ class Vault(object):
         pass
     
     def is_available(self):
-        return True
+        return False
 
     def get_secret(self, key):
         return SECRETS[key]
